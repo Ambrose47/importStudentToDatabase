@@ -1,0 +1,13 @@
+server:
+  port: 8088
+
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/ESMS
+    username: postgres
+    password: 12345
+  mvc:
+    view:
+      prefix: /templates/
+      suffix: .html
+
